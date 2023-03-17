@@ -205,6 +205,88 @@ p.shop-now:hover{
     background-color: #f5fafa;
 }
 
+.about-text-box a{
+   width: 100%;
+   margin: 0;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-box{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #292939;
+    color: #f5fafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-footer{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-footer a{
+    text-decoration: none;
+    color: #f5fafa;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.text-footer a:hover{
+    color: #03c04a;
+}
+
+p.click-text{
+    color: #f5fafa;
+    font-size: 90%;
+}
+
+.payment-footer{
+    text-align: center;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.payment-footer img{
+    width: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.social-footer{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social-footer img{
+    width: 40%;
+}
+
+.social-footer img:hover{
+    opacity: 0.8;
+}
+
 @media (min-width: 300px) and (max-width: 600px){
 
     .menu-button{
@@ -509,6 +591,14 @@ p.shop-now:hover{
 .main-content a:hover{
     color: #f5fafa;
     background-color: #000000;
+}
+
+.main-content img{
+    width: 60%;
+}
+
+.main-content img.product{
+    width: 50%;
 }
 
 @media (min-width: 300px) and (max-width: 361px){
@@ -1308,23 +1398,129 @@ label.sign-green{
 
 
     /*CONTACT PAGE*/
+.contact-border{
+    width: 100%;
+    height: auto;
+    background-color: #03c04a;
+    padding: 50px;
+}
+
+.contact-box{
+    width: 40%;
+    height: auto;
+    background-color: #f5fafa;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px #808080;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-box p{
+    font-size: 18px;
+}
+
+.contact-box :first-child{
+    font-size: 24px;
+}
+
+.email{
+    font-size: 100%;
+    width: 130px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.email:hover{
+    opacity: 1;
+}
+
+
+@media (min-width: 300px) and (max-width: 400px){
+
+    .nav-box a{
+        left: 0;
+        margin-right: 30px;
+    }
+
     .contact-border{
-        width: 100%;
-        height: auto;
-        background-color: #03c04a;
-        padding: 50px;
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     .contact-box{
-        width: 40%;
-        height: auto;
-        background-color: #f5fafa;
-        margin: auto;
-        border-radius: 10px;
-        box-shadow: 0px 0px 3px 1px #808080;
-        padding: 30px 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        width: 95%;
+        padding: 20px 30px;
     }
+
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+
+    .nav-box a{
+        left: 0;
+        margin-right: 30px;
+    }
+
+    .contact-border{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .contact-box{
+        width: 85%;
+        padding: 20px 40px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+
+    .nav-box a{
+        left: 0;
+        margin-right: 30px;
+    }
+
+    .contact-border{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .contact-box{
+        width: 75%;
+        padding: 20px 40px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+
+    .nav-box a{
+        left: 0;
+        margin-right: 30px;
+    }
+
+    .contact-border{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .contact-box{
+        width: 60%;
+        padding: 20px 40px;
+    }
+
+}
