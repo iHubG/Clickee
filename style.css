@@ -457,7 +457,6 @@ p.click-text{
     "sidebar main main";
     grid-gap: 20px;
     margin: 0;
-    padding: 20px;
 }
 
 .nav-slide{
@@ -677,7 +676,6 @@ p.click-text{
         "main main main";
         grid-gap: 20px;
         margin: 0;
-        padding: 20px;
     }
     
     .nav-slide{
